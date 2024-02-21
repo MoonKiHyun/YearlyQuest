@@ -4,9 +4,6 @@ import com.example.yearlyquest.global.entity.TimeStamp;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Getter
 @Builder
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
