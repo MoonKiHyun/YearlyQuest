@@ -1,4 +1,4 @@
-package com.example.yearlyquest.global;
+package com.example.yearlyquest.global.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
