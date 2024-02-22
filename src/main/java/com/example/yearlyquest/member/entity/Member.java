@@ -16,6 +16,15 @@ public class Member extends TimeStamp {
     private Long id;
 
     @Column(nullable = false)
+    private String email;
+
+    @Column(nullable = false)
+    private String password;
+
+    @Column(nullable = false)
+    private String phoneNumber;
+
+    @Column(nullable = false)
     private String username;
 
     @Column(nullable = true)
