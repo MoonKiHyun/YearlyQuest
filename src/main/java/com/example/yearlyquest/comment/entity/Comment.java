@@ -27,6 +27,9 @@ public class Comment extends TimeStamp {
     @Column(nullable = false)
     private String content;
 
+    @Column(nullable = false)
+    private Long likes;
+
     @ManyToOne
     @JoinColumn(name = "parent_id")
     private Comment parent;

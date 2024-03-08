@@ -30,6 +30,12 @@ public class Quest extends TimeStamp {
     @Column(nullable = false)
     private String description;
 
+    @Column(nullable = false)
+    private Long likes;
+
+    @Column(nullable = false)
+    private Long viewCount;
+
     @Column(nullable = true)
     private LocalDateTime startDate;
 
